@@ -2,10 +2,17 @@
   "name": "ui-monorepo",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@jscutlery/semver": "^2.29.3",
+    "@nrwl/devkit": "^15.3.3",
+    "husky": "^8.0.0",
     "nx": "15.3.3",
     "prettier": "^2.6.2"
   },
