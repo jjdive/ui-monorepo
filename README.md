@@ -1,4 +1,4 @@
-# UiMonorepo
+# UI Monorepo using Nx and @jscutlery/semver
 
 <a href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -15,3 +15,18 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+# How we got to this setup
+
+Start by creating a new workspace. We can use the following command that will help us set it up.
+
+```
+npx create-nx-workspace@latest package-based --preset=npm
+```
+
+Install `@jscutlery/semver` which is an Nx plugin for versioning using SemVer and CHANGELOG generation powered by Conventional Commits.
+
+```
+npm install -D @jscutlery/semver @nrwl/devkit
+nx g @jscutlery/semver:install
+```
