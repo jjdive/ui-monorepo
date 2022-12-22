@@ -1,0 +1,13 @@
+{
+  "name": "@jjdive/dropdown",
+  "version": "0.1.0",
+  "description": "Vue dropdown component",
+  "main": "Dropdown.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjdive/ui-monorepo.git"
+  },
+  "dependencies": {
+    "@jjdive/button": "^0.0.0"
+  }
+}

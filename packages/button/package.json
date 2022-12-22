@@ -1,0 +1,10 @@
+{
+  "name": "@jjdive/button",
+  "version": "0.0.0",
+  "description": "Vue UI button component",
+  "main": "Button.vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjdive/ui-monorepo.git"
+  }
+}

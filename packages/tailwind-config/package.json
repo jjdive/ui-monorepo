@@ -1,0 +1,14 @@
+{
+  "name": "@jjdive/tailwind-config",
+  "version": "0.0.0",
+  "description": "Tailwind config",
+  "main": "tailwind.config.cjs",
+  "files": [
+    "base-styles.css",
+    "tailwind.config.cjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjdive/ui-monorepo.git"
+  }
+}
